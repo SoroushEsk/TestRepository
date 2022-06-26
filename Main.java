@@ -11,5 +11,7 @@ public class Main{
 		for(Player p : t1.teamPlayers){
 			System.out.println(p.name);
 		}
+		sp.soroush = 3;
+		System.out.println(sp.toString());
 	}
 }
